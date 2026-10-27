@@ -4,16 +4,14 @@
 
 > **Last tested:** October 27, 2026, on macOS with Bambu Studio 02.08.02.61, Bambu Lab A1, 0.4 nozzle, PLA.
 
-<!-- TODO: screenshot 1 -->
-<!-- TODO: screenshot 2 -->
+![Asking Claude to change the model](screenshot-claude.png)
+![The updated model open in Bambu Studio](screenshot-bambu-studio.png)
 
 ## Why I built this
 
 I was designing STL files with Claude, and every small change meant the same loop: download the new file, delete the old one in Bambu Studio, import the new one, and check how it looked. I wanted that gone.
 
 I built this while making a holder for my toothbrush, tongue scraper, toothpaste, toothpicks and mouthwash. That took a lot of iterations, which is exactly the kind of project where the manual loop hurts most.
-
-<!-- TODO: MakerWorld link to the toothbrush holder -->
 
 ## What it does
 
@@ -71,10 +69,6 @@ The ZIP holds `SKILL.md` and `build.py` in one folder named after the skill, whi
 - Date: October 27, 2026 (build, write and reload verified end to end)
 
 **Not tested:** Windows, Linux, other printers, Claude Code in a terminal, models with more than one object, opening a never-opened file through File > Open Project with computer use.
-
-## Support
-
-If this saved you time, you can buy me a coffee: <!-- TODO: Buy Me a Coffee link -->
 
 ## Disclaimer
 
