@@ -4,9 +4,6 @@
 
 > **Last tested:** October 27, 2026, on macOS with Bambu Studio 02.08.02.61, Bambu Lab A1, 0.4 nozzle, PLA.
 
-![Asking Claude to change the model](screenshot-claude.png)
-![The updated model open in Bambu Studio](screenshot-bambu-studio.png)
-
 ## Why I built this
 
 I was designing STL files with Claude, and every small change meant the same loop: download the new file, delete the old one in Bambu Studio, import the new one, and check how it looked. I wanted that gone.
@@ -16,6 +13,11 @@ I built this while making a holder for my toothbrush, tongue scraper, toothpaste
 ## What it does
 
 You describe an object. Claude builds a parametric model, packs it as a Bambu Studio project file in your models folder, and reloads it in Studio. Say "make it taller" or "round the corners" and the new version appears in Studio a few seconds later.
+
+<p>
+  <img src="screenshot-claude.png" alt="Asking Claude to change the model" width="38%">
+  <img src="screenshot-bambu-studio.png" alt="The updated model open in Bambu Studio" width="60%">
+</p>
 
 ## How it works
 
