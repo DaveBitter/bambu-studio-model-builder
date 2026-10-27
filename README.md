@@ -49,10 +49,19 @@ You install nothing by hand. Python is part of the app's environment, and Claude
 
 1. Open Bambu Studio, pick your printer and filament, and save an empty project into a folder for your models.
 2. In Cowork, attach that folder with the **Add folder** button.
-3. Install the skill.
+3. Install the skill (see below).
 4. Ask Claude to design something.
 
 The saved project is only the starting point. It carries your printer, filament and process settings. After the first build, the model's own file carries the settings forward.
+
+## Install the skill
+
+1. Download [`bambu-studio-model-builder.zip`](bambu-studio-model-builder.zip) from this repo (open the file on GitHub and click the download button). Don't unzip it.
+2. In Claude, open **Settings > Capabilities** and make sure code execution and file creation is on.
+3. In the **Skills** section, click **Upload skill** and pick the ZIP.
+4. Switch the skill on.
+
+The ZIP holds `SKILL.md` and `build.py` in one folder named after the skill, which is the layout Claude expects. If you change either file, rebuild the ZIP with the same folder name. See Anthropic's page on [using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude) for details. I only tested this skill in Cowork on macOS; the upload steps come from that page.
 
 ## Tested on
 
