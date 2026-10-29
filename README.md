@@ -19,6 +19,15 @@ You describe an object. Claude builds a parametric model, packs it as a Bambu St
   <img src="screenshot-bambu-studio.png" alt="The updated model open in Bambu Studio" width="60%">
 </p>
 
+## Example: Japandi Toothbrush Station
+
+The holder from the section above, with a lift-off drip tray, ended up as 13 modular variants. You can print it from MakerWorld: [Japandi Toothbrush Station](https://makerworld.com/en/models/3507169-japandi-toothbrush-station-13-modular-variants).
+
+<p>
+  <img src="example-toothbrush-station-render.jpg" alt="Render of the Japandi Toothbrush Station: holder and drip tray" width="49%">
+  <img src="example-toothbrush-station-photo.jpg" alt="The printed Japandi Toothbrush Station in use in a bathroom" width="30%">
+</p>
+
 ## How it works
 
 1. Claude builds the model with a short Python script (`build.py`).
@@ -70,7 +79,11 @@ The ZIP holds `SKILL.md` and `build.py` in one folder named after the skill, whi
 - Bambu Lab A1, 0.4 nozzle, 0.20 mm Standard, PLA
 - Date: October 27, 2026 (build, write and reload verified end to end)
 
-**Not tested:** Windows, Linux, other printers, Claude Code in a terminal, models with more than one object, opening a never-opened file through File > Open Project with computer use.
+**Reported by others (not verified by me):**
+
+- Works on Fedora 44 with ChatGPT, on a Bambu Lab A1 Mini with AMS Lite ([Reddit](https://www.reddit.com/r/BambuLab/comments/1xg55ms/comment/19ru8glypyder/), October 2026).
+
+**Not tested by me:** Windows, other printers, Claude Code in a terminal, models with more than one object, opening a never-opened file through File > Open Project with computer use.
 
 ## Disclaimer
 
